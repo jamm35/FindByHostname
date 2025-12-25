@@ -1,6 +1,9 @@
 # FindByHostname
 Python program that automatically grabs the local IP and network range to scan for a given hostname using Nmap.
 
+# Usage
+* Program intended to be used to find the ip address of a headless server so you can ssh into it
+
 # Features
 * Automatically grabs local ip and network range to scan for given hostname
 * Provides option to input a specific ip/port to scan
