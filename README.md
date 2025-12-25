@@ -2,10 +2,10 @@
 Python program that automatically grabs the local IP and network range to scan for a given hostname using Nmap.
 
 # Usage
-* Program intended to be used to find the ip address of a headless server with ssh enabled
+* Program intended to be used to find the IP address of a headless server with ssh enabled
 
 # Features
-* Automatically grabs local ip and network range to scan for given hostname
+* Automatically grabs local IP and network range to scan for given hostname
 * Provides option to input a specific ip/port to scan
 
 # How To Run
