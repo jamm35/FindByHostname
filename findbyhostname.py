@@ -34,7 +34,7 @@ class nmap:
         print(f"\nRunning nmap scan on {ip}...\n")
         
         self.result = subprocess.run(
-            ["nmap", "-sn", ip],
+            ["nmap", "--open", "-p 22", "-sT", ip],
             capture_output=True,
             text=True
         )
